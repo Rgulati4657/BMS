@@ -1,0 +1,28 @@
+/* --- NEW STYLES FOR VALIDATION AND LAYOUT --- */
+
+/* Style for the red error text */
+.errorText {
+  color: #d9534f; /* A standard red color for errors */
+  font-size: 0.875rem;
+  margin-top: 4px;
+  display: block; /* Ensures it appears on its own line */
+}
+
+/* Specific width for the channel select dropdown */
+.channelSelect {
+  width: 100%;
+  max-width: 350px; /* Adjust this value as needed */
+}
+
+/* Container for Step 2 to control its spacing */
+.stepTwoContainer {
+  margin-top: 2rem;
+}
+
+/* Container for the upload buttons in Step 2 */
+.uploadActions {
+  margin-top: 1.5rem; /* Reduced margin to bring buttons up */
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1rem; /* Adds space between the two buttons */
+}

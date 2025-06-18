@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* This gradient matches the background of the reference image */
+  background: linear-gradient(160deg, #022552 0%, #00458b 100%);
+  font-family: 'Roboto', sans-serif;
+
+/* --- NEW BACKGROUND CODE --- */
+
+  /* 
+    This applies two layers:
+    1. A semi-transparent linear gradient on TOP.
+    2. Your background image on the BOTTOM.
+  */
+  background: 
+    linear-gradient(160deg, rgba(242, 255, 142, 0), rgba(255, 255, 255, 0.94)),url('/Backgroundimg.jpg'); /* <-- This points to your image in the /public folder */
+
+  /* These properties ensure your image covers the whole screen without distortion */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Creates a cool parallax effect on scroll */
+}
