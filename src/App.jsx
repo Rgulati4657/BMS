@@ -13,6 +13,7 @@ import BulkUpload from '@/pages/BulkUpload/BulkUpload.jsx';
 // --- NEW: Import the UploadTracker component using your path alias ---
 import UploadTracker from '@/pages/UploadTracker/UploadTracker.jsx';
 
+import CampaignPreview from './components/CampaignPreview';
 // A simple component to protect routes
 const PrivateRoute = ({ children }) => {
   const token = localStorage.getItem('authToken');
@@ -53,6 +54,7 @@ function App() {
         {/* We are adding the route for the tracker page HERE, inside the protected layout */}
         <Route path="upload-tracker" element={<UploadTracker />} />
 
+         <Route path="/campaign-preview" element={<CampaignPreview />} />
       </Route>
 
       {/* A catch-all route for any other path */}

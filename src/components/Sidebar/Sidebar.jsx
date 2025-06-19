@@ -7,7 +7,7 @@ import ViewListIcon from '@mui/icons-material/ViewList';
 import BackupTableIcon from '@mui/icons-material/BackupTable';
 // --- NEW: Import the icon for the tracker ---
 import TrackChangesIcon from '@mui/icons-material/TrackChanges';
-
+import CampaignIcon from '@mui/icons-material/Campaign';
 // --- MODIFIED: Added Upload Tracker to the nav items array ---
 const navItems = [
   { text: 'Dashboard', icon: <DashboardIcon />, path: '/dashboard' },
@@ -15,6 +15,7 @@ const navItems = [
   { text: 'Banner List', icon: <ViewListIcon />, path: '/banner-list' },
   { text: 'Bulk Upload', icon: <BackupTableIcon />, path: '/bulk-upload' },
   { text: 'Upload Tracker', icon: <TrackChangesIcon />, path: '/upload-tracker' },
+   { text: 'Campaign Preview', icon: <CampaignIcon />, path: '/campaign-preview' },,
 ];
 
 const Sidebar = () => {

@@ -1,3 +1,0 @@
-clientId,panId,channel,clickAction,image_filename,priority,status,validFrom,validTo,language,segmentTag,deviceType,geoLocation
-CUST98765,FGHIJ5678K,mobile,https://example.com/offers/summer-sale,img1.webp,8,active,2024-08-01T00:00:00,2024-08-31T23:59:59,en-US,new-user,mobile,Delhi
-CORP11223,KLMNO1234P,netbanking,https://example.com/business/loan-info,img2.webp,5,draft,2024-09-01T00:00:00,2024-09-30T23:59:59,en-GB,corporate-client,desktop,Mumbai

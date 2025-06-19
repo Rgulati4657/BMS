@@ -7,6 +7,7 @@ import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import ViewListIcon from '@mui/icons-material/ViewList';
 import BackupTableIcon from '@mui/icons-material/BackupTable';
 import TrackChangesIcon from '@mui/icons-material/TrackChanges'; // <-- Import the new icon
+import CampaignIcon from '@mui/icons-material/Campaign';
 
 const featureCards = [
   { 
@@ -33,6 +34,12 @@ const featureCards = [
     path: '/upload-tracker', // The path for your new page
     icon: <TrackChangesIcon sx={{ fontSize: 40 }}/>, 
     description: 'Monitor the progress of ongoing bulk uploads.' 
+  },
+  {
+    title: 'Campaign Preview',
+    path: '/campaign-preview',
+    icon: <CampaignIcon sx={{ fontSize: 40 }}/>,
+    description: 'Preview live campaigns by providing client details.'
   },
 ];
 
